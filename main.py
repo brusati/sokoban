@@ -291,7 +291,7 @@ def manejar_accion(grilla, accion, solucion, movimientos_realizados, nivel, nive
 def main():
 	niveles = copiar_niveles("niveles.txt")
 	teclas = copiar_teclas("teclas.txt")
-	nivel = 70
+	nivel = 0
 	movimientos_realizados = Pila()
 	solucion = Pila()
 	grilla = obtener_grilla(nivel, niveles)
